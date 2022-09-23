@@ -28,5 +28,4 @@ tornado==6.2
 typing_extensions==4.3.0
 Werkzeug==2.2.1
 WTForms==3.0.1
-xmlrpclib==1.0.1
 zipp==1.0.0
