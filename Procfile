@@ -1,1 +1,1 @@
-web: gunitreecorn main:app
+web: gunicorn main:app
