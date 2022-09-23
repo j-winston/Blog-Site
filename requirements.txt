@@ -9,6 +9,7 @@ Flask-Gravatar
 Flask-Login
 Flask-SQLAlchemy
 Flask-WTF
+Gunicorn
 idna
 itsdangerous
 Jinja2
