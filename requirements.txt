@@ -12,7 +12,6 @@ Flask-WTF
 idna
 itsdangerous
 Jinja2
-request
 SQLAlchemy
 urllib3
 visitor
