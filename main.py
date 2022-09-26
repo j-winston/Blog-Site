@@ -12,10 +12,9 @@ from flask_gravatar import Gravatar
 from hashlib import md5
 import gunicorn
 import os
-import psycopg2
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY", "sqlite:///blog.db")
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
